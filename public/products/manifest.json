@@ -1,0 +1,269 @@
+[
+  {
+    "slug": "turban-prestige",
+    "name": "Turban prestige",
+    "price": 20000,
+    "category": "turbans",
+    "files": [
+      "IMG_6705"
+    ],
+    "images": [
+      "/products/turban-prestige/1.jpg"
+    ]
+  },
+  {
+    "slug": "tunique-nabylaa",
+    "name": "Tunique NABYLAA",
+    "price": 50000,
+    "category": "vetements",
+    "files": [
+      "IMG_6706",
+      "IMG_6708"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "images": [
+      "/products/tunique-nabylaa/1.jpg",
+      "/products/tunique-nabylaa/2.jpg"
+    ]
+  },
+  {
+    "slug": "pret-a-poser",
+    "name": "Prêt à poser",
+    "price": 10000,
+    "category": "turbans",
+    "files": [
+      "IMG_6711"
+    ],
+    "description_extra": "Disponible à partir de 10 000 FCFA (certaines finitions à 15 000 FCFA).",
+    "images": [
+      "/products/pret-a-poser/1.jpg"
+    ]
+  },
+  {
+    "slug": "turban-merry",
+    "name": "Turban Merry",
+    "price": 10000,
+    "category": "turbans",
+    "files": [
+      "IMG_6712"
+    ],
+    "description_extra": "Lot de 3 turbans à 10 000 FCFA.",
+    "images": [
+      "/products/turban-merry/1.jpg"
+    ]
+  },
+  {
+    "slug": "easy-turban-channel",
+    "name": "Easy Turban Channel",
+    "price": 8000,
+    "category": "turbans",
+    "files": [
+      "IMG_6713",
+      "IMG_6714",
+      "IMG_6715",
+      "IMG_6716",
+      "IMG_6717",
+      "IMG_6718",
+      "IMG_6719",
+      "IMG_6720"
+    ],
+    "isFeatured": true,
+    "images": [
+      "/products/easy-turban-channel/1.jpg",
+      "/products/easy-turban-channel/2.jpg",
+      "/products/easy-turban-channel/3.jpg",
+      "/products/easy-turban-channel/4.jpg",
+      "/products/easy-turban-channel/5.jpg",
+      "/products/easy-turban-channel/6.jpg",
+      "/products/easy-turban-channel/7.jpg",
+      "/products/easy-turban-channel/8.jpg"
+    ]
+  },
+  {
+    "slug": "turban-nijme",
+    "name": "Turban NIJMÉ",
+    "price": 20000,
+    "category": "turbans",
+    "files": [
+      "IMG_6721",
+      "IMG_6722",
+      "IMG_6723",
+      "IMG_6724"
+    ],
+    "isFeatured": true,
+    "images": [
+      "/products/turban-nijme/1.jpg",
+      "/products/turban-nijme/2.jpg",
+      "/products/turban-nijme/3.jpg",
+      "/products/turban-nijme/4.jpg"
+    ]
+  },
+  {
+    "slug": "turban-fatima",
+    "name": "Turban Fatima",
+    "price": 20000,
+    "category": "turbans",
+    "files": [
+      "IMG_6725",
+      "IMG_6726",
+      "IMG_6727"
+    ],
+    "isFeatured": true,
+    "images": [
+      "/products/turban-fatima/1.jpg",
+      "/products/turban-fatima/2.jpg",
+      "/products/turban-fatima/3.jpg"
+    ]
+  },
+  {
+    "slug": "turban-fama",
+    "name": "Turban Fama",
+    "price": 20000,
+    "category": "turbans",
+    "files": [
+      "IMG_6728"
+    ],
+    "images": [
+      "/products/turban-fama/1.jpg"
+    ]
+  },
+  {
+    "slug": "turban-pret-a-poser-perle",
+    "name": "Turban prêt à poser perle",
+    "price": 15000,
+    "category": "turbans",
+    "files": [
+      "IMG_6729",
+      "IMG_6730"
+    ],
+    "images": [
+      "/products/turban-pret-a-poser-perle/1.jpg",
+      "/products/turban-pret-a-poser-perle/2.jpg"
+    ]
+  },
+  {
+    "slug": "collection-verte-maille",
+    "name": "Collection verte — Maille",
+    "price": 30000,
+    "category": "vetements",
+    "files": [
+      "IMG_6731"
+    ],
+    "isNew": true,
+    "images": [
+      "/products/collection-verte-maille/1.jpg"
+    ]
+  },
+  {
+    "slug": "collection-verte-palmier",
+    "name": "Collection verte — Palmier",
+    "price": 25000,
+    "category": "vetements",
+    "files": [
+      "IMG_6732"
+    ],
+    "isNew": true,
+    "images": [
+      "/products/collection-verte-palmier/1.jpg"
+    ]
+  },
+  {
+    "slug": "cape-maya",
+    "name": "Cape MAYA",
+    "price": 25000,
+    "category": "vetements",
+    "files": [
+      "IMG_6707",
+      "IMG_6709",
+      "IMG_6710",
+      "IMG_6733",
+      "IMG_6734",
+      "IMG_6735",
+      "IMG_6736"
+    ],
+    "isFeatured": true,
+    "images": [
+      "/products/cape-maya/1.jpg",
+      "/products/cape-maya/2.jpg",
+      "/products/cape-maya/3.jpg",
+      "/products/cape-maya/4.jpg",
+      "/products/cape-maya/5.jpg",
+      "/products/cape-maya/6.jpg",
+      "/products/cape-maya/7.jpg"
+    ]
+  },
+  {
+    "slug": "tunique-brodee",
+    "name": "Tunique",
+    "price": 35000,
+    "category": "vetements",
+    "files": [
+      "IMG_6737"
+    ],
+    "images": [
+      "/products/tunique-brodee/1.jpg"
+    ]
+  },
+  {
+    "slug": "tunique-beatrice",
+    "name": "Tunique Béatrice",
+    "price": 35000,
+    "category": "vetements",
+    "files": [
+      "IMG_6738",
+      "IMG_6739",
+      "IMG_6740",
+      "IMG_6741",
+      "IMG_6742"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "images": [
+      "/products/tunique-beatrice/1.jpg",
+      "/products/tunique-beatrice/2.jpg",
+      "/products/tunique-beatrice/3.jpg",
+      "/products/tunique-beatrice/4.jpg",
+      "/products/tunique-beatrice/5.jpg"
+    ]
+  },
+  {
+    "slug": "cape-adan-et-eve",
+    "name": "Cape Adan et Ève",
+    "price": 25000,
+    "category": "vetements",
+    "files": [
+      "IMG_6743",
+      "IMG_6744",
+      "IMG_6745",
+      "IMG_6747"
+    ],
+    "isFeatured": true,
+    "images": [
+      "/products/cape-adan-et-eve/1.jpg",
+      "/products/cape-adan-et-eve/2.jpg",
+      "/products/cape-adan-et-eve/3.jpg",
+      "/products/cape-adan-et-eve/4.jpg"
+    ]
+  },
+  {
+    "slug": "kany-mixte",
+    "name": "Kany Mixte",
+    "price": 25000,
+    "category": "vetements",
+    "files": [
+      "IMG_6748",
+      "IMG_6749",
+      "IMG_6750",
+      "IMG_6751",
+      "IMG_6752"
+    ],
+    "images": [
+      "/products/kany-mixte/1.jpg",
+      "/products/kany-mixte/2.jpg",
+      "/products/kany-mixte/3.jpg",
+      "/products/kany-mixte/4.jpg",
+      "/products/kany-mixte/5.jpg"
+    ]
+  }
+]

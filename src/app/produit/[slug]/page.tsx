@@ -4,6 +4,7 @@ import { products, getProductBySlug, getCategoryName } from "@/lib/data/products
 import { formatPrice } from "@/lib/utils";
 import Badge from "@/components/ui/Badge";
 import ProductDetailClient from "@/components/shop/ProductDetailClient";
+import ProductGallery from "@/components/shop/ProductGallery";
 import ProductPlaceholder from "@/components/ui/ProductPlaceholder";
 
 interface Props {
@@ -48,18 +49,17 @@ export default async function ProductPage({ params }: Props) {
       </nav>
 
       <div className="grid lg:grid-cols-2 gap-12">
-        <div className="relative aspect-[3/4] rounded-2xl overflow-hidden border border-ivory-dark">
-          {product.image ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              src={product.image}
-              alt={product.name}
-              className="w-full h-full object-cover"
-            />
+        <div className="relative">
+          {product.images.length > 0 ? (
+            <ProductGallery name={product.name} images={product.images} />
+          ) : product.image ? (
+            <ProductGallery name={product.name} images={[product.image]} />
           ) : (
-            <ProductPlaceholder label={product.name} size="lg" />
+            <div className="relative aspect-[3/4] rounded-2xl overflow-hidden border border-ivory-dark">
+              <ProductPlaceholder label={product.name} size="lg" />
+            </div>
           )}
-          <div className="absolute top-4 left-4 flex gap-2">
+          <div className="absolute top-4 left-4 flex gap-2 z-10">
             {product.isNew && <Badge variant="new">Nouveau</Badge>}
             {product.originalPrice && <Badge variant="sale">Promo</Badge>}
           </div>
