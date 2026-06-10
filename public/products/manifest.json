@@ -265,5 +265,387 @@
       "/products/kany-mixte/4.jpg",
       "/products/kany-mixte/5.jpg"
     ]
+  },
+  {
+    "slug": "kany-moussline",
+    "name": "Kany Moussline",
+    "price": 15000,
+    "category": "vetements",
+    "files": [
+      "IMG_6754",
+      "IMG_6755",
+      "IMG_6756"
+    ],
+    "isNew": true,
+    "images": [
+      "/products/kany-moussline/1.jpg",
+      "/products/kany-moussline/2.jpg",
+      "/products/kany-moussline/3.jpg"
+    ]
+  },
+  {
+    "slug": "kany-bogolan",
+    "name": "Kany Bogolan",
+    "price": 25000,
+    "category": "vetements",
+    "files": [
+      "IMG_6757",
+      "IMG_6758",
+      "IMG_6759",
+      "IMG_6760"
+    ],
+    "isNew": true,
+    "images": [
+      "/products/kany-bogolan/1.jpg",
+      "/products/kany-bogolan/2.jpg",
+      "/products/kany-bogolan/3.jpg",
+      "/products/kany-bogolan/4.jpg"
+    ]
+  },
+  {
+    "slug": "pret-a-poser-simple",
+    "name": "Prêt à posé simple",
+    "price": 8000,
+    "category": "turbans",
+    "files": [
+      "IMG_6761",
+      "IMG_6762",
+      "IMG_6763"
+    ],
+    "isFeatured": true,
+    "images": [
+      "/products/pret-a-poser-simple/1.jpg",
+      "/products/pret-a-poser-simple/2.jpg",
+      "/products/pret-a-poser-simple/3.jpg"
+    ]
+  },
+  {
+    "slug": "easy-turban-wax",
+    "name": "Easy Turban Wax",
+    "price": 6000,
+    "category": "turbans",
+    "files": [
+      "IMG_6764",
+      "IMG_6765",
+      "IMG_6766"
+    ],
+    "isFeatured": true,
+    "images": [
+      "/products/easy-turban-wax/1.jpg",
+      "/products/easy-turban-wax/2.jpg",
+      "/products/easy-turban-wax/3.jpg"
+    ]
+  },
+  {
+    "slug": "turban-nene-wax",
+    "name": "Turban Néné wax",
+    "price": 7500,
+    "category": "turbans",
+    "files": [
+      "IMG_6767",
+      "IMG_6768",
+      "IMG_6769"
+    ],
+    "isFeatured": true,
+    "images": [
+      "/products/turban-nene-wax/1.jpg",
+      "/products/turban-nene-wax/2.jpg",
+      "/products/turban-nene-wax/3.jpg"
+    ]
+  },
+  {
+    "slug": "kaay-moussorou",
+    "name": "Kaay Moussorou",
+    "price": 6000,
+    "category": "turbans",
+    "files": [
+      "IMG_6771",
+      "IMG_6772"
+    ],
+    "images": [
+      "/products/kaay-moussorou/1.jpg",
+      "/products/kaay-moussorou/2.jpg"
+    ]
+  },
+  {
+    "slug": "hijab-binetou-simple",
+    "name": "Hijab Binetou Simple",
+    "price": 8000,
+    "category": "hijabs",
+    "files": [
+      "IMG_6773",
+      "IMG_6774",
+      "IMG_6775"
+    ],
+    "images": [
+      "/products/hijab-binetou-simple/1.jpg",
+      "/products/hijab-binetou-simple/2.jpg",
+      "/products/hijab-binetou-simple/3.jpg"
+    ]
+  },
+  {
+    "slug": "turban-nene-pagne-tisse",
+    "name": "Turban Néné Pagne Tissé",
+    "price": 15000,
+    "category": "turbans",
+    "files": [
+      "IMG_6776",
+      "IMG_6777",
+      "IMG_6778"
+    ],
+    "isFeatured": true,
+    "images": [
+      "/products/turban-nene-pagne-tisse/1.jpg",
+      "/products/turban-nene-pagne-tisse/2.jpg",
+      "/products/turban-nene-pagne-tisse/3.jpg"
+    ]
+  },
+  {
+    "slug": "turban-lolita",
+    "name": "Turban Lolita",
+    "price": 6000,
+    "category": "turbans",
+    "files": [
+      "IMG_6779",
+      "IMG_6780",
+      "IMG_6781"
+    ],
+    "isFeatured": true,
+    "images": [
+      "/products/turban-lolita/1.jpg",
+      "/products/turban-lolita/2.jpg",
+      "/products/turban-lolita/3.jpg"
+    ]
+  },
+  {
+    "slug": "hijab-maria-pagne-tisse",
+    "name": "Hijab Maria Pagne Tissé",
+    "price": 8000,
+    "category": "hijabs",
+    "files": [
+      "IMG_6782",
+      "IMG_6783",
+      "IMG_6784"
+    ],
+    "images": [
+      "/products/hijab-maria-pagne-tisse/1.jpg",
+      "/products/hijab-maria-pagne-tisse/2.jpg",
+      "/products/hijab-maria-pagne-tisse/3.jpg"
+    ]
+  },
+  {
+    "slug": "hijab-maria-garniture",
+    "name": "Hijab Maria garniture",
+    "price": 6000,
+    "category": "hijabs",
+    "files": [
+      "IMG_6785",
+      "IMG_6786",
+      "IMG_6787"
+    ],
+    "images": [
+      "/products/hijab-maria-garniture/1.jpg",
+      "/products/hijab-maria-garniture/2.jpg",
+      "/products/hijab-maria-garniture/3.jpg"
+    ]
+  },
+  {
+    "slug": "pret-a-poser-brocard",
+    "name": "Prêt à posé Brocard",
+    "price": 20000,
+    "category": "turbans",
+    "files": [
+      "IMG_6789",
+      "IMG_6790",
+      "IMG_6791"
+    ],
+    "images": [
+      "/products/pret-a-poser-brocard/1.jpg",
+      "/products/pret-a-poser-brocard/2.jpg",
+      "/products/pret-a-poser-brocard/3.jpg"
+    ]
+  },
+  {
+    "slug": "pret-a-poser-mixte-brocard",
+    "name": "Prêt à posé mixte brocard",
+    "price": 15000,
+    "category": "turbans",
+    "files": [
+      "IMG_6792",
+      "IMG_6793",
+      "IMG_6794"
+    ],
+    "images": [
+      "/products/pret-a-poser-mixte-brocard/1.jpg",
+      "/products/pret-a-poser-mixte-brocard/2.jpg",
+      "/products/pret-a-poser-mixte-brocard/3.jpg"
+    ]
+  },
+  {
+    "slug": "hijab-amy-simple",
+    "name": "Hijab Amy simple",
+    "price": 8000,
+    "category": "hijabs",
+    "files": [
+      "IMG_6795",
+      "IMG_6796",
+      "IMG_6797"
+    ],
+    "isFeatured": true,
+    "images": [
+      "/products/hijab-amy-simple/1.jpg",
+      "/products/hijab-amy-simple/2.jpg",
+      "/products/hijab-amy-simple/3.jpg"
+    ]
+  },
+  {
+    "slug": "hijab-amy-garniture",
+    "name": "Hijab Amy garniture",
+    "price": 9000,
+    "category": "hijabs",
+    "files": [
+      "IMG_6798",
+      "IMG_6799",
+      "IMG_6800"
+    ],
+    "isFeatured": true,
+    "images": [
+      "/products/hijab-amy-garniture/1.jpg",
+      "/products/hijab-amy-garniture/2.jpg",
+      "/products/hijab-amy-garniture/3.jpg"
+    ]
+  },
+  {
+    "slug": "hijab-veronica",
+    "name": "Hijab Veronica",
+    "price": 8000,
+    "category": "hijabs",
+    "files": [
+      "IMG_6801",
+      "IMG_6802"
+    ],
+    "images": [
+      "/products/hijab-veronica/1.jpg",
+      "/products/hijab-veronica/2.jpg"
+    ]
+  },
+  {
+    "slug": "turban-fatou-velour",
+    "name": "Turban Fatou Velour",
+    "price": 6000,
+    "category": "turbans",
+    "files": [
+      "IMG_6803",
+      "IMG_6804"
+    ],
+    "images": [
+      "/products/turban-fatou-velour/1.jpg",
+      "/products/turban-fatou-velour/2.jpg"
+    ]
+  },
+  {
+    "slug": "turban-fatou",
+    "name": "Turban Fatou",
+    "price": 5000,
+    "category": "turbans",
+    "files": [
+      "IMG_6805",
+      "IMG_6806",
+      "IMG_6807"
+    ],
+    "isFeatured": true,
+    "images": [
+      "/products/turban-fatou/1.jpg",
+      "/products/turban-fatou/2.jpg",
+      "/products/turban-fatou/3.jpg"
+    ]
+  },
+  {
+    "slug": "hijab-binetou-brocard",
+    "name": "Hijab Binetou Brocard",
+    "price": 10000,
+    "category": "hijabs",
+    "files": [
+      "IMG_6808",
+      "IMG_6809"
+    ],
+    "images": [
+      "/products/hijab-binetou-brocard/1.jpg",
+      "/products/hijab-binetou-brocard/2.jpg"
+    ]
+  },
+  {
+    "slug": "hijab-wig-zahra",
+    "name": "Hijab wig Zahra",
+    "price": 8000,
+    "category": "hijabs",
+    "files": [
+      "IMG_6810",
+      "IMG_6811",
+      "IMG_6812"
+    ],
+    "images": [
+      "/products/hijab-wig-zahra/1.jpg",
+      "/products/hijab-wig-zahra/2.jpg",
+      "/products/hijab-wig-zahra/3.jpg"
+    ]
+  },
+  {
+    "slug": "hijab-merry",
+    "name": "Hijab Merry",
+    "price": 6000,
+    "category": "hijabs",
+    "files": [
+      "IMG_6813",
+      "IMG_6814",
+      "IMG_6815"
+    ],
+    "images": [
+      "/products/hijab-merry/1.jpg",
+      "/products/hijab-merry/2.jpg",
+      "/products/hijab-merry/3.jpg"
+    ]
+  },
+  {
+    "slug": "easy-turban-velour",
+    "name": "Easy Turban Velour",
+    "price": 10000,
+    "category": "turbans",
+    "files": [
+      "IMG_6816",
+      "IMG_6817"
+    ],
+    "images": [
+      "/products/easy-turban-velour/1.jpg",
+      "/products/easy-turban-velour/2.jpg"
+    ]
+  },
+  {
+    "slug": "hijab-khadija-perlage",
+    "name": "Hijab Khadija perlage",
+    "price": 12000,
+    "category": "hijabs",
+    "files": [
+      "IMG_6818",
+      "IMG_6819"
+    ],
+    "images": [
+      "/products/hijab-khadija-perlage/1.jpg",
+      "/products/hijab-khadija-perlage/2.jpg"
+    ]
+  },
+  {
+    "slug": "chale-bea",
+    "name": "Châle Bea",
+    "price": 10000,
+    "category": "accessoires",
+    "files": [
+      "IMG_6820",
+      "IMG_6821"
+    ],
+    "images": [
+      "/products/chale-bea/1.jpg",
+      "/products/chale-bea/2.jpg"
+    ]
   }
 ]

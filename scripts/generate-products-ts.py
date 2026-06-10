@@ -24,6 +24,30 @@ DESCRIPTIONS = {
     "tunique-beatrice": "Tunique Béatrice, modèle best-seller. Plusieurs coloris disponibles.",
     "cape-adan-et-eve": "Cape Adan et Ève à capuche, motifs traditionnels et finitions soignées.",
     "kany-mixte": "Ensemble Kany Mixte, style modeste et moderne.",
+    "kany-moussline": "Kany en mousseline légère, plusieurs coloris disponibles.",
+    "kany-bogolan": "Kany aux motifs bogolan traditionnels.",
+    "pret-a-poser-simple": "Turban prêt à poser simple, facile à enfiler au quotidien.",
+    "easy-turban-wax": "Easy Turban en wax vibrant, prêt à porter.",
+    "turban-nene-wax": "Turban Néné en wax, incontournable de la collection.",
+    "kaay-moussorou": "Kaay Moussorou, turban pratique et élégant.",
+    "hijab-binetou-simple": "Hijab Binetou simple, confortable et facile à nouer.",
+    "turban-nene-pagne-tisse": "Turban Néné en pagne tissé traditionnel.",
+    "turban-lolita": "Turban Lolita tendance, doux et pratique.",
+    "hijab-maria-pagne-tisse": "Hijab Maria en pagne tissé.",
+    "hijab-maria-garniture": "Hijab Maria avec garniture décorative.",
+    "pret-a-poser-brocard": "Turban prêt à poser en brocard luxueux.",
+    "pret-a-poser-mixte-brocard": "Turban prêt à poser mixte brocard avec nœud décoratif.",
+    "hijab-amy-simple": "Hijab Amy simple avec béret intégré.",
+    "hijab-amy-garniture": "Hijab Amy avec garniture brodée.",
+    "hijab-veronica": "Hijab Veronica avec bandeau décoratif.",
+    "turban-fatou-velour": "Turban Fatou en velours doux.",
+    "turban-fatou": "Turban Fatou plissé, plusieurs coloris.",
+    "hijab-binetou-brocard": "Hijab Binetou en brocard raffiné.",
+    "hijab-wig-zahra": "Hijab wig Zahra, prêt à porter.",
+    "hijab-merry": "Hijab Merry, modèle coloré et pratique.",
+    "easy-turban-velour": "Easy Turban en velours, confort optimal.",
+    "hijab-khadija-perlage": "Hijab Khadija avec finition perlage.",
+    "chale-bea": "Châle Bea élégant, parfait pour compléter votre tenue.",
 }
 
 COLORS = {
@@ -36,6 +60,19 @@ COLORS = {
     "collection-verte-maille": ["Vert émeraude"],
     "collection-verte-palmier": ["Vert", "Imprimé palmier"],
     "kany-mixte": ["Multicolore"],
+    "kany-moussline": ["Bleu", "Orange", "Multicolore"],
+    "kany-bogolan": ["Bogolan", "Motifs traditionnels"],
+    "pret-a-poser-simple": ["Noir", "Rouge", "Beige"],
+    "easy-turban-wax": ["Wax multicolore", "Wax orange"],
+    "turban-nene-wax": ["Wax noir", "Wax multicolore"],
+    "turban-nene-pagne-tisse": ["Bleu", "Gris", "Rouge"],
+    "turban-lolita": ["Noir", "Blanc", "Rose"],
+    "hijab-amy-simple": ["Violet", "Rose"],
+    "hijab-amy-garniture": ["Vert", "Olive"],
+    "hijab-veronica": ["Rose", "Bleu"],
+    "turban-fatou": ["Violet", "Bleu"],
+    "turban-fatou-velour": ["Noir", "Bordeaux"],
+    "chale-bea": ["Moutarde", "Or"],
 }
 
 def main() -> None:
@@ -74,7 +111,11 @@ def main() -> None:
             desc += f" {p['description_extra']}"
         images = p["images"]
         colors = COLORS.get(slug, ["Voir photos"])
-        sizes = ["Unique"] if p["category"] == "turbans" else ["S", "M", "L", "XL"]
+        sizes = (
+            ["Unique"]
+            if p["category"] in ("turbans", "hijabs", "accessoires")
+            else ["S", "M", "L", "XL"]
+        )
 
         lines.append("  {")
         lines.append(f'    id: "{i}",')
