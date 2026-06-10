@@ -11,6 +11,14 @@ Site e-commerce moderne pour la boutique **Nabylaa By Hijab Store** à Dakar, S�
 - Livraison au Sénégal
 - Responsive (mobile, tablette, desktop)
 
+## Déploiement GitHub Pages
+
+Le site se déploie automatiquement sur **GitHub Pages** à chaque push sur `main`.
+
+- URL : `https://latsoukb.github.io/nabyla/`
+- Workflow : `.github/workflows/deploy-pages.yml`
+- GitHub Pages sert un site **statique** : le paiement en ligne nécessitera un hébergement avec serveur (Vercel, etc.) quand le catalogue sera rempli.
+
 ## Démarrage rapide
 
 ```bash

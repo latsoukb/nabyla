@@ -1,13 +1,14 @@
+"use client";
+
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
+import { Suspense } from "react";
 import { CheckCircle } from "lucide-react";
 import Button from "@/components/ui/Button";
 
-interface Props {
-  searchParams: Promise<{ orderId?: string }>;
-}
-
-export default async function SuccesPage({ searchParams }: Props) {
-  const { orderId } = await searchParams;
+function SuccesContent() {
+  const searchParams = useSearchParams();
+  const orderId = searchParams.get("orderId");
 
   return (
     <div className="max-w-lg mx-auto px-4 py-20 text-center">
@@ -38,5 +39,13 @@ export default async function SuccesPage({ searchParams }: Props) {
         </Link>
       </div>
     </div>
+  );
+}
+
+export default function SuccesPage() {
+  return (
+    <Suspense>
+      <SuccesContent />
+    </Suspense>
   );
 }
