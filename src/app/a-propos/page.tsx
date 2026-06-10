@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Logo from "@/components/ui/Logo";
 import Link from "next/link";
 import Button from "@/components/ui/Button";
 
@@ -20,9 +20,7 @@ export default function AProposPage() {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 text-center">
-          <div className="relative w-28 h-28 mx-auto mb-8">
-            <Image src="/logo.png" alt="Nabylaa" fill className="object-contain" />
-          </div>
+          <Logo size="lg" className="mx-auto mb-8" />
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-ivory mb-4">
             À propos de Nabylaa
           </h1>

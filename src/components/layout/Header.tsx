@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+import Logo from "@/components/ui/Logo";
 import { useState, useEffect } from "react";
 import { Menu, X, ShoppingBag, Search, Phone } from "lucide-react";
 import { useCartStore } from "@/lib/store/cart";
@@ -59,15 +59,7 @@ export default function Header() {
             </button>
 
             <Link href="/" className="flex-shrink-0 flex items-center gap-3">
-              <div className="relative w-10 h-10 lg:w-12 lg:h-12">
-                <Image
-                  src="/logo.png"
-                  alt="Nabylaa"
-                  fill
-                  className="object-contain"
-                  priority
-                />
-              </div>
+            <Logo size="sm" priority className="lg:w-12 lg:h-12" />
               <div className="hidden sm:block">
                 <p className="font-display text-lg lg:text-xl font-bold text-gold tracking-[0.15em] leading-none">
                   NABYLAA

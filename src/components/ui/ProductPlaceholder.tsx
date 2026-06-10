@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import Image from "next/image";
+import Logo from "@/components/ui/Logo";
 
 interface ProductPlaceholderProps {
   label?: string;
@@ -37,15 +37,15 @@ export default function ProductPlaceholder({
       <div className="absolute bottom-0 left-0 w-16 h-16 bg-gold/5 rounded-tr-full" />
 
       {showLogo && (
-        <div
-          className={cn("relative mb-3 opacity-60", {
+        <Logo
+          alt=""
+          size="sm"
+          className={cn("mb-3 opacity-60", {
             "w-10 h-10": size === "sm",
             "w-14 h-14": size === "md",
             "w-20 h-20": size === "lg",
           })}
-        >
-          <Image src="/logo.png" alt="" fill className="object-contain" />
-        </div>
+        />
       )}
 
       <p

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Logo from "@/components/ui/Logo";
 import { Phone, MapPin, Mail } from "lucide-react";
 import { categories } from "@/lib/data/products";
 
@@ -28,9 +28,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <div className="flex items-center gap-3 mb-5">
-              <div className="relative w-10 h-10">
-                <Image src="/logo.png" alt="Nabylaa" fill className="object-contain" />
-              </div>
+              <Logo size="sm" />
               <div>
                 <p className="font-display text-lg font-bold text-gold tracking-[0.15em]">
                   NABYLAA

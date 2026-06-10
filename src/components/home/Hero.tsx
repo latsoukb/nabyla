@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+import Logo from "@/components/ui/Logo";
 import { motion } from "framer-motion";
 import Button from "@/components/ui/Button";
 import { ArrowRight } from "lucide-react";
@@ -69,15 +69,12 @@ export default function Hero() {
               <div className="absolute inset-0 border border-gold/20 rounded-full" />
               <div className="absolute inset-4 border border-gold/10 rounded-full" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="relative w-56 h-56">
-                  <Image
-                    src="/logo.png"
-                    alt="Nabylaa By Hijab Store"
-                    fill
-                    className="object-contain drop-shadow-2xl"
-                    priority
-                  />
-                </div>
+                <Logo
+                  size="xl"
+                  alt="Nabylaa By Hijab Store"
+                  priority
+                  className="drop-shadow-2xl"
+                />
               </div>
             </div>
           </motion.div>

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Logo from "@/components/ui/Logo";
 import Button from "@/components/ui/Button";
 
 interface CatalogEmptyProps {
@@ -13,9 +13,7 @@ export default function CatalogEmpty({
 }: CatalogEmptyProps) {
   return (
     <div className="flex flex-col items-center justify-center py-24 text-center">
-      <div className="relative w-24 h-24 mb-8 opacity-40">
-        <Image src="/logo.png" alt="" fill className="object-contain" />
-      </div>
+      <Logo size="lg" alt="" className="mb-8 opacity-40" />
       <h2 className="font-display text-3xl font-bold text-black-brand mb-4">
         {title}
       </h2>

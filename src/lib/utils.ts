@@ -5,6 +5,11 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+export function assetPath(path: string): string {
+  const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+  return `${base}${path.startsWith("/") ? path : `/${path}`}`;
+}
+
 export function formatPrice(amount: number): string {
   return new Intl.NumberFormat("fr-SN", {
     style: "currency",
