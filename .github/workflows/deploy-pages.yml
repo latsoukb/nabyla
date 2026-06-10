@@ -27,8 +27,8 @@ jobs:
 
       - run: npm ci
 
-      # GitHub Pages = site statique (pas d'API ni de routes produit vides)
-      - run: rm -rf src/app/api src/app/produit
+      # GitHub Pages = site statique (pas d'API)
+      - run: rm -rf src/app/api
 
       - run: npm run build
         env:

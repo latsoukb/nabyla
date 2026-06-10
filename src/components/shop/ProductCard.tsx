@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Heart, ShoppingBag } from "lucide-react";
 import { Product } from "@/lib/types";
-import { formatPrice } from "@/lib/utils";
+import { formatPrice, assetPath } from "@/lib/utils";
 import { useCartStore } from "@/lib/store/cart";
 import Badge from "@/components/ui/Badge";
 import ProductPlaceholder from "@/components/ui/ProductPlaceholder";
@@ -28,7 +28,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         {product.image ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
-            src={product.image}
+            src={assetPath(product.image)}
             alt={product.name}
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           />

@@ -4,8 +4,9 @@ import { useState } from "react";
 import { Product } from "@/lib/types";
 import { useCartStore } from "@/lib/store/cart";
 import Button from "@/components/ui/Button";
-import { ShoppingBag, Check } from "lucide-react";
+import { ShoppingBag, Check, MessageCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { whatsappOrderLink } from "@/lib/data/products";
 
 interface Props {
   product: Product;
@@ -94,24 +95,40 @@ export default function ProductDetailClient({ product }: Props) {
         </div>
       </div>
 
-      <Button
-        size="lg"
-        className="w-full gap-2"
-        onClick={handleAddToCart}
-        disabled={!product.inStock}
-      >
-        {added ? (
-          <>
-            <Check size={20} />
-            Ajouté au panier !
-          </>
-        ) : (
-          <>
-            <ShoppingBag size={20} />
-            {product.inStock ? "Ajouter au panier" : "Rupture de stock"}
-          </>
-        )}
-      </Button>
+      <div className="space-y-3">
+        <Button
+          size="lg"
+          className="w-full gap-2"
+          onClick={handleAddToCart}
+          disabled={!product.inStock}
+        >
+          {added ? (
+            <>
+              <Check size={20} />
+              Ajouté au panier !
+            </>
+          ) : (
+            <>
+              <ShoppingBag size={20} />
+              {product.inStock ? "Ajouter au panier" : "Rupture de stock"}
+            </>
+          )}
+        </Button>
+
+        <a
+          href={whatsappOrderLink(
+            `${product.name}${color ? ` — ${color}` : ""}${size ? ` — Taille ${size}` : ""} x${quantity}`
+          )}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block"
+        >
+          <Button size="lg" variant="outline" className="w-full gap-2 border-[#25D366] text-[#25D366] hover:bg-[#25D366]/10">
+            <MessageCircle size={20} />
+            Commander sur WhatsApp
+          </Button>
+        </a>
+      </div>
     </div>
   );
 }
