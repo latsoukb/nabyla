@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nabylaa By Hijab Store
 
-## Getting Started
+Site e-commerce moderne pour la boutique **Nabylaa By Hijab Store** à Dakar, Sénégal.
 
-First, run the development server:
+## Fonctionnalités
+
+- Design moderne et élégant (mode modeste)
+- Catalogue produits par catégories (Vêtements, Turbans, Hijabs, Accessoires, Beauté)
+- Panier et checkout complet
+- Paiement **Wave** et **Orange Money**
+- Livraison au Sénégal
+- Responsive (mobile, tablette, desktop)
+
+## Démarrage rapide
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrez [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Paiements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Mode démo (par défaut)
 
-## Learn More
+Les paiements sont simulés. Ajoutez des produits au panier, passez commande et testez Wave ou Orange Money.
 
-To learn more about Next.js, take a look at the following resources:
+### Mode production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Copiez `.env.example` vers `.env.local`
+2. Définissez `PAYMENT_DEMO_MODE=false`
+3. Configurez vos clés API :
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Wave Business API**
+- Créez un compte marchand sur [business.wave.com](https://business.wave.com)
+- Obtenez votre clé API et secret webhook
+- Documentation : [Wave Business API](https://kolonell.com/en/blog/wave-business-api-website-integration-2026)
 
-## Deploy on Vercel
+**Orange Money**
+- Contactez Sonatel pour un compte marchand
+- Obtenez `client_id`, `client_secret` et `merchant_key`
+- Délai d'activation : 2-4 semaines
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Déploiement
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Vercel (recommandé)
+
+```bash
+npm i -g vercel
+vercel
+```
+
+Configurez les variables d'environnement dans le dashboard Vercel.
+
+### Autres plateformes
+
+```bash
+npm run build
+npm start
+```
+
+## Prototype
+
+Le catalogue est vide pour l'instant — les catégories sont en place, les produits seront ajoutés dans `src/lib/data/products.ts` avec vos vraies photos.
+
+```ts
+// Exemple pour ajouter un produit :
+{
+  id: "1",
+  slug: "mon-produit",
+  name: "Nom du produit",
+  description: "Description...",
+  price: 15000,
+  category: "hijabs",
+  image: "/products/mon-produit.jpg", // vos photos dans public/products/
+  images: ["/products/mon-produit.jpg"],
+  colors: ["Noir", "Beige"],
+  sizes: ["Unique"],
+  inStock: true,
+}
+```
+
+## Structure
+
+```
+src/
+├── app/              # Pages et routes API
+├── components/       # Composants React
+├── public/logo.png   # Logo Nabylaa
+├── lib/
+│   ├── data/         # Catalogue produits
+│   ├── payment/      # Intégration Wave & Orange Money
+│   └── store/        # État panier et commandes
+```
+
+## Contact boutique
+
+- **Adresse :** Sacré Coeur 3, AUCHAN, Dakar
+- **Téléphone :** (+221) 77 745 47 47
+- **Email :** contact@nabylaa.com
